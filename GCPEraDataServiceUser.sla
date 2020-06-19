@@ -1,0 +1,82 @@
+{
+    "class_id": "com-snaplogic-snaps-google-bigquery-googlebigqueryoauthaccount",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "AritziaSBX"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "GCPEraDataServiceUser"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "access_token": {
+                "fp": "eeb4b41fd5b9b9766482a74058e0c0b5df65c4e4911de82bb4d0930b99a69f18",
+                "key": "account-cloud-managed-5c459b9067ad1a0bf8cdac26-2019-01-21T10:28:01-890083+00:00",
+                "sym_iv": "aezCUVAfQu8KMJZMJAd8OA==",
+                "sym_key": "Vup4Mw6pLjF1dsD9thYrm+XAlALdf7zDLxOPhLAHXT7eJCIafataSzU6JXobjw1llKvpnxxP3xIgEg5zWJnFUcF6vjTLKyIC9ENz4eH7j+ZAZU+dqiE3Qbqa4Hz0+OqGKJKOXTqkkHnPQGWKPBy5UaVTxQwwO1+A5Cq60+wA/RywecUcdJv72ahLJM6Gh3Krqk/wiKZhzJ3MfdLh7AOCwv+hHbjnAJAzkPo4Xz+9+t5ru8dVil/tWeVBgTa9rj8UQhaz5qTdst8FgN1zCfmIOO24kK73oiBAgnIVD8Vk9KSZQSXCMYPZ7Z1wWPlQAHS0nMMy/3oL8nr3d33Jlf2ecA==",
+                "value": "rSm78j5Kvl+MrsyPuJKg1YUK6dwalaA893f+WBziI7F66CEwJvuN36dxyhltAsNR+pdRQmuCiAUwsWa6/BT7mfQJPIHdJkD1BZBjAzqQYTD5cDj3KPZipVwbFJwqQ0ZwAYRb/fmQ12ZnamXvX4VUYSz7jTLwEdOuM0cnryS3Fs2StuoVNFIBMdFOtu9eWVCUKacMsLwbwtFkbLLIZCKRDTVW0qunrO0VE/iccyAXuVk="
+            },
+            "access_token_expiration": {
+                "value": "1592607859"
+            },
+            "auth_endpoint": {
+                "value": "https://accounts.google.com/o/oauth2/auth"
+            },
+            "auth_endpoint_config": {
+                "value": {
+                    "access_type": {
+                        "value": "offline"
+                    },
+                    "approval_prompt": {
+                        "value": "force"
+                    },
+                    "scope": {
+                        "value": "https://www.googleapis.com/auth/bigquery https://www.googleapis.com/auth/devstorage.read_only https://www.googleapis.com/auth/cloud-platform.read-only https://www.googleapis.com/auth/devstorage.full_control https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/devstorage.read_write"
+                    }
+                }
+            },
+            "authorize": {
+                "value": null
+            },
+            "autoRefreshToken": {
+                "value": true
+            },
+            "client_id": {
+                "value": "319944255107-c50cp7b8g0od8s94dp73vso0hnhkbk3f.apps.googleusercontent.com"
+            },
+            "client_secret": {
+                "fp": "eeb4b41fd5b9b9766482a74058e0c0b5df65c4e4911de82bb4d0930b99a69f18",
+                "key": "account-cloud-managed-5c459b9067ad1a0bf8cdac26-2019-01-21T10:28:01-890083+00:00",
+                "sym_iv": "bUd6uqMBHL5C8+D+EkxTnQ==",
+                "sym_key": "I+buSnzKuD/WyxHByjX9hVpXzW4lOZO+qVvxokh51S8Jeb1t502BuBvE1jQtXW7vKGbQ4Oz+R4kAiQu7uYpy3U1lOTAFeGdoOY0Yq1jsUwn8MNiUcuiAN3iJrUIFfraUpTljDU7zErBXOWC0qMm2CnAJTUDBzJv8CBz+Pjl2vsblGCe+K5eqvnJceuq5AsYPevbNkI7aR1hmwsbOEP1Ng2Za5Y+RcefkG4wUleNfYEf/Ac6QvnfK+uyYLJt2uv59933K2WJKs1+0qHDtGMtO4GxNmsGTRH6na/msX50NozJ4A/qr5M9QtvFeYUxFiFD4cUVRyThaNC9C2g7vJEWIyw==",
+                "value": "GCDk4W3kwYPXIpcm1gItORh8Td+gXfM5gWoA6eZITMo="
+            },
+            "refresh": {
+                "value": null
+            },
+            "refresh_token": {
+                "fp": "eeb4b41fd5b9b9766482a74058e0c0b5df65c4e4911de82bb4d0930b99a69f18",
+                "key": "account-cloud-managed-5c459b9067ad1a0bf8cdac26-2019-01-21T10:28:01-890083+00:00",
+                "sym_iv": "ORo/XfXbwvbJP6O/fTqYUg==",
+                "sym_key": "c74vZE6+SHq1K7N/qCv1Ynk9PL27qjLgUEfyMONRwcNRk+2nk3ui98dfLr/JC8Ap3Ne5BJKwmfI9N0LxQudzEg7gfPdwVM13q1xpoEhv2PmpZfHaV7lRTIs3jjEHw8rkZqtcapit/dGmgP0lfV+9wbz2OAjkUSJJpdZ88pgimwB91w9PKvVIlaW/2iYifHxb22BPFm70rTzyo4nOTxF2Zms+Y3wIUSLwXrAtcAPLf8eCnwdw2OSzJeBySy+b54Oh0SHVVxmT3RIQQBRCpaGrWnlGngTUpCWtW6DLtnDxjza0iyfCJonvntR+YPPLrcvBxMkX8BUVqkxXMqOOTE6s7g==",
+                "value": "0SWVUpC0n2v/nWNPD4/UmMPb7ZXWdj0t9rEhytiw7IP9lG4Vkp3KD/KQyvnAhepaZ2Nom0TeF9HGsaeNXqpl5rRKLdwJQl3NJfiV0A0t9fPC9eQPLNbkLRGp4xnBCjj9MRtXp6bfBLRAt8fh1x5clw=="
+            },
+            "token_endpoint": {
+                "value": "https://accounts.google.com/o/oauth2/token"
+            },
+            "token_endpoint_config": {
+                "value": {
+                    "token_transport": {
+                        "value": "headers"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}

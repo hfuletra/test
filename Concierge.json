@@ -1,0 +1,11 @@
+{	
+	"connectionDetails": {
+			"apigeeAccountName": "shared/Apigee snaplogic-integration-errors-devqa App",
+			"apigeeEndPoint": "https://api-dev.aritzia.com/pubsub/publish/message/atz-api-pubsub-dev/integration-errors/"
+	},"alertNofication": {
+		"toEmailID" : "hfuletra@aritzia.com",
+			"subject":"",
+			"emailCloudAccount":"shared/EmailServerCloud",
+			"emailAccount":"shared/EmailServer"
+	}
+}
